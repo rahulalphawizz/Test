@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Seekbar</string>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+
+
+    <string name="service_team_visit">Service Team Visit</string>
+    <string name="testimonials_shared">Testimonials Shared</string>
+    <string name="demo">Demo</string>
+    <string name="plant_visit">Plant Visit</string>
+    <string name="AMC">AMC</string>
+    <string name="driver_training">Driver Training</string>
+    <string name="telematics">Eicher Live Info given to Customer</string>
+    <string name="eicher_sure">Eicher Sure</string>
+
+    <string name="csmAsmVisit">CSM / ASM Visit</string>
+    <string name="extendedWaranty">Extended Warranty</string>
+    <string name="please_enter_all_mandetory_fileds">Please enter all mandatory fields</string>
+    <string name="partner_services">Partner Services</string>
+    <string name="fast_tag">Fast Tag</string>
+    <string name="complete_fleet_tracking">Complete Fleet Tracking</string>
+    <string name="load_board">Load Board</string>
+
+
 </resources>
