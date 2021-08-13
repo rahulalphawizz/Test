@@ -52,8 +52,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e(TAG+"111", "onPause: " );
         //onResume();
 
-
-
+        Log.e(TAG, "onPause: seeeeekbar" );
     }
 
 

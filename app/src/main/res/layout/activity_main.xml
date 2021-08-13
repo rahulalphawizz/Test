@@ -36,40 +36,9 @@
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
 
 
-    <ToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/toggleText"
-        android:textOff=""
-        android:textOn=""
-        android:background="@drawable/toggle_selector"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:visibility="visible"/>
-
-
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="260dp"
-        android:layout_height="40dp"
-        android:weightSum="2">
-
-        <TextView
-            android:layout_width="130dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="Not Interested"
-            />
-
-        <TextView
-            android:layout_width="130dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="Interested"
-            />
-    </androidx.appcompat.widget.LinearLayoutCompat>
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 
 </LinearLayout>
