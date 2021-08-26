@@ -7,15 +7,4 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="App_TextStyle" parent="@android:style/Widget.TextView">
-        <item name="android:textColor">@color/lblColors</item>
-        <item name="android:fontFamily">@font/titilliumweb_regular</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
-        <item name="colorControlActivated">#00CE7B</item>
-        <item name="colorSwitchThumbNormal">#37404B</item>
-        <item name="android:colorForeground">#000000</item>
-    </style>
 </resources>
