@@ -18,10 +18,10 @@ public class CustomiseToggleActivity extends AppCompatActivity implements View.O
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_customise_toggle);
+        setContentView(R.layout.activity_customise_togglenew);
 
-        tv_demo_interested = findViewById(R.id.tv_demo_interested);
-        tv_demo_notiterested = findViewById(R.id.tv_demo_notiterested);
+        //tv_demo_interested = findViewById(R.id.tv_demo_interested);
+       // tv_demo_notiterested = findViewById(R.id.tv_demo_notiterested);
         imgAddnDetailsArrow = findViewById(R.id.imgAddnDetailsArrow);
         ll_partner_services = findViewById(R.id.ll_partner_services);
 
@@ -38,7 +38,7 @@ public class CustomiseToggleActivity extends AppCompatActivity implements View.O
             }
         });
 
-        tv_demo_interested.setOnClickListener(new View.OnClickListener() {
+        /*tv_demo_interested.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tv_demo_interested.setBackgroundResource(R.drawable.background_selected_toggle);
@@ -51,8 +51,8 @@ public class CustomiseToggleActivity extends AppCompatActivity implements View.O
             public void onClick(View v) {
                 tv_demo_interested.setBackground(null);
                 tv_demo_notiterested.setBackgroundResource(R.drawable.background_selected_toggle);
-            }
-        });
+            }*/
+        //});
     }
 
     @Override
