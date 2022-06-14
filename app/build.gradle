@@ -3,6 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 29
 //hello
+    //hello
+    //hello
     defaultConfig {
         applicationId "com.example.seekbar"
         minSdkVersion 16
